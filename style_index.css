@@ -1,0 +1,6 @@
+/* Add a gray background color with some padding */
+body {
+  font-family: questrial;
+  padding: 20px;
+  background: #99D9EA;
+}
