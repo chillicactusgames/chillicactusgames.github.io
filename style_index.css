@@ -47,12 +47,28 @@ img {
     max-height: 100%;
 }
 
-/* Add a card effect for articles */
+/* Div cards for apps */
+
 .card {
    background-color: #FCF2EE;
    padding: 20px;
    margin-top: 20px;
 }
+
+.cardleft {
+ float: left;
+ width: 33%;
+}
+
+div.cardright {
+    /*margin: 0 0 0 300px;*/
+	colour: white;
+  padding: 30px;
+  font-size: 40px;
+  text-align: left;
+	
+}
+
 .code {
    padding: 5px;
    padding-left: 15px;
@@ -130,3 +146,4 @@ a:active {
   src: url('font_futura.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
    url('font_futura.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 } 
+
