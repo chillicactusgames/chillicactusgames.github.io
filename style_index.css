@@ -47,7 +47,8 @@ img {
     max-height: 100%;
 }
 .get {
-	float:right;
+    float:right;
+    max-width: 5%;
 }
 
 /* Div cards for apps */
