@@ -36,6 +36,19 @@ h2, h1 {
   padding-left: 20px;
 }
 
+.cardleft {   
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.cardright {
+  float: left;
+  width: 75%;
+  padding-left: 20px;
+}
+
+
 /* image */
 .fakeimg {
   background-color: #aaa;
@@ -57,19 +70,6 @@ img {
    background-color: #FCF2EE;
    padding: 20px;
    margin-top: 20px;
-}
-
-.cardleft {
- float: left;
- width: 33%;
-}
-
-.cardright {
-    /*margin: 0 0 0 300px;*/
-  colour: white;
-  padding: 30px;
-  text-align: left;
-	
 }
 
 .code {
