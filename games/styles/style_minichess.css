@@ -7,12 +7,15 @@ body {
 
 h5, h4, h3, h2, h1 {
   font-family: questrial;
+  color:black;
 }
 
 p.header {
   font-family: questrial;
+  color:black;
 }
 
 .footer {
   background: #DDDDDD;
+  color:black;
 }
