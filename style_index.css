@@ -94,26 +94,31 @@ img {
 
 a {
 	text-decoration: none;
+  color: black;
 }
 
 a:hover {
 	  cursor: pointer;
 	  text-decoration: underline;
+  color: black;
 }
 
 a:link {
   cursor: pointer;
   background-color: transparent; 
+  color: black;
 }
 
 a:visited {
   cursor: pointer;
   background-color: transparent;
+  color: black;
 }
 
 a:active {
   cursor: pointer;
   background-color: transparent;
+  color: black;
 }
 
 /* Footer */
