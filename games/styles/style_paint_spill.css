@@ -1,0 +1,28 @@
+body {
+  font-family: questrial;
+  padding: 20px;
+  background: #e8e8e8;
+  color:black;
+}
+
+h5, h4, h3, h2, h1 {
+  font-family: mutant;
+  color:black;
+}
+
+p.header {
+  font-family: questrial;
+  color:black;
+}
+
+.footer {
+  background: #DDDDDD;
+  color:black;
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'mutant';
+  src: url('Mutant-Supermodel.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('Mutant Supermodel.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
