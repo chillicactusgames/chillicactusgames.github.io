@@ -62,13 +62,13 @@ footer{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);font-si
 <p>The game does not ask players to provide a name, email address, age or other personal details, and it does not transmit gameplay records to us. It contains no advertising or in-game chat. If you believe a child has provided personal information directly to us, contact us so that we can address the matter and delete the information where appropriate.</p>
 <h2>10. CHANGES TO THIS POLICY</h2>
 <p>We may update this policy if the game&#39;s features or information-handling practices change. We will revise the date above and provide any additional notice required by applicable law. This policy describes the current game; changes involving accounts, online services or new data collection would need to be reflected in an updated policy.</p></article>
-<footer><a href="Branch-Line-Privacy-Policy.txt">Read the plain text version</a></footer>
+<footer><a href="privacy-policy.txt">Read the plain text version</a></footer>
 </main>
 <script>
 // The embedded policy works when this file is opened directly. When hosted,
 // refresh it from the adjacent TXT so that the TXT remains the source of truth.
 if (location.protocol === 'https:' || location.protocol === 'http:') {
-  fetch('Branch-Line-Privacy-Policy.txt', {cache:'no-store'})
+  fetch('privacy-policy.txt', {cache:'no-store'})
     .then(response => {if (!response.ok) throw new Error('Policy unavailable'); return response.text();})
     .then(text => {
       const blocks = text.trim().split(/\r?\n\s*\r?\n/), content = document.createDocumentFragment();
