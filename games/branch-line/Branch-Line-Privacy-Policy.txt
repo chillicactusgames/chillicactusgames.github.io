@@ -1,0 +1,140 @@
+BRANCH LINE PRIVACY POLICY
+ChilliCactus Games
+Last updated: 29 October 2026
+
+1. ABOUT THIS POLICY
+
+Branch Line is a railway puzzle game published by ChilliCactus Games
+("we", "us" or "our"). This policy explains how information is handled
+in the Android version of the game.
+
+Branch Line works offline. You do not need an account, and the game does
+not send your gameplay records to us. The current game contains no
+advertising, analytics or third-party crash-reporting SDKs.
+
+2. INFORMATION STORED ON YOUR DEVICE
+
+The game saves information locally so that you can continue playing and
+keep your preferences. This includes:
+
+- Completed and skipped levels, stars, unlocked content and your current
+  position in the game.
+- Unfinished puzzle layouts and markings.
+- Time spent on campaign levels, used to make the Skip button available.
+- Daily puzzle dates, start and finish times, results and completion history.
+- Endless best scores, earned achievement stamps and placement totals.
+- Tutorial and unlock-notification records.
+- Music, sound, display and motion preferences.
+
+This information is stored locally within the Android app. It is used to
+run the game, restore progress, time puzzles, award achievements and
+remember settings. It is not sent to a ChilliCactus Games server.
+
+Daily puzzles are generated on your device from the date. The game does
+not contact a server to obtain a puzzle or submit your score. There are
+no online accounts, public leaderboards or developer-operated cloud saves.
+
+The game does not use advertising identifiers. Its local storage supports
+game functions rather than advertising or tracking.
+
+3. DEVICE ACCESS AND CONNECTIONS
+
+The current Android app does not request access to your location,
+contacts, camera, microphone, photos or messages. It has no Android
+internet permission and loads its game files, artwork and music locally.
+
+4. OPTIONAL SCORE SHARING
+
+You can choose to share a Daily Line result. The prepared message includes
+the puzzle date, board size, world, completion time and whether it is a
+replay. Sharing is optional and is not required to play.
+
+If you choose a sharing option, the message is passed to your selected
+app or service, such as a messaging app, WhatsApp or an email app. Opening
+a sharing service may disclose the prepared text to that service before
+you send it to a recipient. That service's privacy policy and settings
+apply. Branch Line does not read your contacts or choose recipients.
+
+We do not receive a copy of your shared result through the game.
+
+5. APP STORES AND PURCHASES
+
+Google Play handles downloads, updates and any purchases under its own
+terms and privacy policy. The game does not
+ask for your payment card or banking details.
+
+Google or your device manufacturer may
+separately process information about their services, including store use
+or diagnostics, according to their policies and your settings. This is
+separate from the game's local progress storage.
+
+6. CONTACTING US
+
+For privacy enquiries, contact ChilliCactus Games at:
+helpchillicactusgames@gmail.com
+
+If you contact us, we receive the information you choose to provide,
+such as your email address, message and any attachments. We use it to
+respond to your enquiry, investigate the issue or handle your request.
+Please avoid sending sensitive information that is not needed.
+
+For support correspondence, our lawful basis under UK data protection
+law is our legitimate interest in responding to players and resolving
+enquiries. We may also process information where necessary to meet a
+legal obligation. You do not have to contact us to play the game.
+
+Correspondence may be processed by the email or support service you use
+to contact us and by the providers we use to receive and manage messages.
+We do not sell your personal information or use support messages for
+advertising. We may disclose information where required by law.
+
+7. RETENTION, DELETION AND SECURITY
+
+Local progress and settings remain on your device until you remove them
+or the app removes its stored data. To delete this information, use your
+Android device's Settings to clear Branch Line's app storage.
+Uninstalling the app normally removes its local data as well.
+
+Deleting local data removes saved progress, scores, stamps and settings.
+Resetting an individual puzzle does not delete all game data. We do not
+hold a server copy of your game save and cannot restore one for you.
+The Android app is configured to exclude its game data from Android
+cloud backup and device transfer.
+
+If you contact us, we keep correspondence only for as long as needed to
+resolve the enquiry and any related follow-up, or to meet applicable
+legal requirements. You can ask us to delete information you have sent us.
+
+Local game data uses the storage protections provided by Android.
+The game does not add separate encryption to saved progress.
+The security of that storage also depends on the security of your device.
+
+8. YOUR PRIVACY RIGHTS
+
+Depending on the law that applies, you may have rights to access, correct,
+delete or restrict the use of personal information we hold about you,
+and to receive a portable copy where that right applies.
+
+You may object to processing based on our legitimate interests.
+Contact us using the details in section 6 to make a request. We cannot
+remotely access or delete a game save stored only on your device; use
+the deletion options in section 7 for that information.
+
+You may complain to your local data protection authority. In the UK,
+this is the Information Commissioner's Office: https://ico.org.uk/make-a-complaint/
+
+9. CHILDREN'S PRIVACY
+
+The game does not ask players to provide a name, email address, age or
+other personal details, and it does not transmit gameplay records to us.
+It contains no advertising or in-game chat. If you believe a child has
+provided personal information directly to us, contact us so that we can
+address the matter and delete the information where appropriate.
+
+10. CHANGES TO THIS POLICY
+
+We may update this policy if the game's features or information-handling
+practices change. We will revise the date above and provide any additional
+notice required by applicable law. This policy describes the current
+game; changes involving accounts, online services or new data collection
+would need to be reflected in an updated policy.
