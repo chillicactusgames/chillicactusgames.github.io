@@ -71,7 +71,7 @@ Kafka Kube is suitable for players of all ages. The game does not ask players to
 
 Because the game does not collect personal information, it does not collect personal information from children. If you believe a child has provided personal information directly to us through an email or other contact, please get in touch so that we can address the matter appropriately.
 
-## 10. CHANGES TO THIS POLICY
+10. CHANGES TO THIS POLICY
 
 We may update this policy if the game's features or information-handling practices change. If a future version introduces accounts, online services, advertising, analytics or any form of personal information collection, this policy will be updated to explain those changes. We will revise the "Last updated" date at the top of this policy whenever changes are made.
 
