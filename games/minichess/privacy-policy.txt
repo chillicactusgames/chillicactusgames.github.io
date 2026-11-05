@@ -1,0 +1,76 @@
+MINICHESS PRIVACY POLICY
+ChilliCactus Games  
+Last updated: 5 November 2026
+
+1. ABOUT THIS POLICY
+
+MiniChess is a chess game published by ChilliCactus Games ("we", "us" or "our"). This policy explains how information is handled in the Android version of the game, version 2.0 and later.
+
+MiniChess works offline. You do not need an account, and the game does not send your gameplay information to us. The current game contains no advertising, analytics or third-party crash-reporting SDKs. The game does not collect, store on a server, share or sell personal information.
+
+2. INFORMATION STORED ON YOUR DEVICE
+
+The game saves a small amount of information locally so that it can remember your preferences between sessions. This includes:
+
+- Your Solo game difficulty setting.
+- The colour you choose to play as in Solo games.
+- Whether game sound is switched on or off.
+
+This information is stored only within the Android app's private storage on your device. It is used to remember your preferences and provide a consistent experience when you return to the game. It is never sent to a ChilliCactus Games server or shared with anyone else. We do not have access to your saved settings. The game does not use local storage for advertising, analytics or tracking purposes.
+
+3. DEVICE ACCESS AND CONNECTIONS
+
+MiniChess works entirely offline. The current Android app does not have Android's internet permission and cannot send or receive data over the internet. The app does not request access to your location, contacts, camera, microphone, photos, messages or other personal information. It does not request any Android permissions. All game features and content are available locally on your device.
+
+4. ADVERTISING, ANALYTICS AND THIRD-PARTY SERVICES
+
+The current version of MiniChess contains no advertising, analytics or tracking tools. It does not include crash-reporting services or third-party SDKs that collect information about players. The game does not use advertising identifiers and does not send gameplay information or device information to external services.
+
+OPTIONAL EXTERNAL LINKS
+
+The game's About screen includes a link to the ChilliCactus Games developer page on Google Play. If you choose to tap this link, the page will open in Google Play or your browser, outside MiniChess. Any information collected through Google Play or your browser is handled under the relevant service's own privacy policy and settings. MiniChess does not send any information to Google when you use this link.
+
+5. APP STORES AND DOWNLOADS
+
+MiniChess is distributed through Google Play. Google handles downloads, installations and updates under its own terms and privacy policy: https://policies.google.com/privacy
+
+Google may independently collect information about downloads and installs in accordance with its policies and your settings. ChilliCactus Games does not receive personal information from Google about individual players through the game. This activity is separate from MiniChess, which does not collect or transmit personal information.
+
+6. RETENTION, DELETION AND SECURITY
+
+Your saved game settings remain stored on your device until you remove them or clear the app's data.
+
+You can delete this information by:
+
+- Clearing MiniChess's app data through your Android device's Settings.
+- Uninstalling MiniChess from your device.
+
+Clearing the app's data or uninstalling the game removes its locally stored settings, including your Solo difficulty, chosen playing colour and sound preference. We do not keep a server copy of your settings and cannot restore deleted preferences. The game uses Android's private app storage to keep its saved information separate from other apps. The security of this information also depends on the security of your device.
+
+7. YOUR PRIVACY RIGHTS
+
+Because MiniChess does not collect or hold personal information about players through the game, we do not maintain a personal information database or individual player profiles. Your locally saved settings can be deleted at any time using the options described in section 6.
+
+Depending on the law that applies, you may have rights to access, correct, delete or restrict the use of personal information held by an organisation. If you have a privacy enquiry or believe we hold information relating to you, you can contact us using the details in section 8.
+
+You may also complain to your local data protection authority. In the UK, this is the Information Commissioner's Office: https://ico.org.uk/make-a-complaint/
+
+8. CONTACTING US
+
+For privacy enquiries or questions about this policy, contact ChilliCactus Games at: helpchillicactusgames@gmail.com
+
+If you contact us, we will receive the information you choose to provide, such as your email address and the contents of your message. We will use this information only to respond to your enquiry or deal with your request. We do not use support correspondence for advertising or sell your personal information.
+
+9. CHILDREN'S PRIVACY
+
+MiniChess is suitable for players of all ages. The game does not ask players to provide a name, email address, age, location or any other personal details. It does not collect or transmit gameplay information and contains no advertising, in-game chat or online services. Because the game does not collect personal information, it does not collect personal information from children.
+
+If you believe a child has provided personal information directly to us through an email or other contact, please get in touch so that we can address the matter appropriately.
+
+10. CHANGES TO THIS POLICY
+
+We may update this policy if the game's features or information-handling practices change.
+
+If a future version introduces accounts, online services, advertising, analytics or any form of personal information collection, this policy will be updated to explain those changes.
+
+We will revise the "Last updated" date at the top of this policy whenever changes are made.
