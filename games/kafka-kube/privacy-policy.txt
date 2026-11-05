@@ -1,0 +1,47 @@
+  Kafka Kube - Privacy Policy
+Developer: ChilliCactus Games
+Applies to: Kafka Kube version 2.0 and later for Android
+Last updated: 29 October 2026
+
+Summary
+Kafka Kube does not collect, store on a server, share or sell any personal data. The app has no
+advertising, no analytics, no accounts and no internet access.
+
+1. Information we collect
+None. Kafka Kube does not ask for your name, email address, location, contacts, photos, device
+identifiers or any other personal information, and it requests no Android permissions.
+
+2. Information stored on your device
+The app saves your game progress (levels unlocked, the kube skins you have chosen) and your
+settings, such as sound on or off.
+This information is stored only in the app's private storage on your device. It is never sent
+to us or to anyone else. Uninstalling the app, or clearing its data in Android Settings,
+deletes it.
+
+3. Internet access, advertising and analytics
+The app does not have Android's internet permission, so it cannot send or receive data over the
+internet. It contains no advertising, no analytics or tracking tools, no crash-reporting
+services and no third-party SDKs. Earlier versions of the game that showed ads or used other
+online services have been replaced by this version.
+
+Links
+The settings screen has a link to ChilliCactus Games' Instagram page. Tapping it opens the page
+in your browser or the Instagram app, outside Kafka Kube. Instagram's own privacy policy then
+applies; the game itself sends nothing.
+
+4. Google Play
+The app is downloaded through Google Play. Google may collect information about downloads and
+installs under its own privacy policy (https://policies.google.com/privacy). ChilliCactus
+Games does not receive personal information from Google about individual players.
+
+5. Children
+The game is suitable for all ages. Because the app collects no personal information, it
+collects none from children.
+
+6. Changes to this policy
+If a future version changes how the app handles information, this policy will be updated and
+the "Last updated" date above changed.
+
+7. Contact
+Questions about this policy can be sent to ChilliCactus Games at
+helpchillicactusgames@gmail.com.
