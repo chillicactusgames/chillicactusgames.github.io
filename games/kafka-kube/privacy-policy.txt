@@ -1,47 +1,78 @@
-  Kafka Kube - Privacy Policy
-Developer: ChilliCactus Games
-Applies to: Kafka Kube version 2.0 and later for Android
+KAFKA KUBE PRIVACY POLICY
+ChilliCactus Games  
 Last updated: 29 October 2026
 
-Summary
-Kafka Kube does not collect, store on a server, share or sell any personal data. The app has no
-advertising, no analytics, no accounts and no internet access.
+1. ABOUT THIS POLICY
 
-1. Information we collect
-None. Kafka Kube does not ask for your name, email address, location, contacts, photos, device
-identifiers or any other personal information, and it requests no Android permissions.
+Kafka Kube is a puzzle game published by ChilliCactus Games ("we", "us" or "our"). This policy explains how information is handled in the Android version of the game.
 
-2. Information stored on your device
-The app saves your game progress (levels unlocked, the kube skins you have chosen) and your
-settings, such as sound on or off.
-This information is stored only in the app's private storage on your device. It is never sent
-to us or to anyone else. Uninstalling the app, or clearing its data in Android Settings,
-deletes it.
+Kafka Kube works offline. You do not need an account, and the game does not send your gameplay records to us. The current game contains no advertising, analytics, tracking tools or third-party crash-reporting SDKs. The game does not collect, store on a server, share or sell personal information.
 
-3. Internet access, advertising and analytics
-The app does not have Android's internet permission, so it cannot send or receive data over the
-internet. It contains no advertising, no analytics or tracking tools, no crash-reporting
-services and no third-party SDKs. Earlier versions of the game that showed ads or used other
-online services have been replaced by this version.
+2. INFORMATION STORED ON YOUR DEVICE
 
-Links
-The settings screen has a link to ChilliCactus Games' Instagram page. Tapping it opens the page
-in your browser or the Instagram app, outside Kafka Kube. Instagram's own privacy policy then
-applies; the game itself sends nothing.
+The game saves a small amount of information locally so that you can keep your progress and preferences. This includes:
 
-4. Google Play
-The app is downloaded through Google Play. Google may collect information about downloads and
-installs under its own privacy policy (https://policies.google.com/privacy). ChilliCactus
-Games does not receive personal information from Google about individual players.
+- Game progress, including levels unlocked.
+- Your chosen kube skins.
+- Game settings, such as whether sound is switched on or off.
 
-5. Children
-The game is suitable for all ages. Because the app collects no personal information, it
-collects none from children.
+This information is stored only within the Android app's private storage on your device. It is used to maintain your game progress and remember your preferences. It is never sent to a ChilliCactus Games server or shared with anyone else. We do not have access to your saved game data.
 
-6. Changes to this policy
-If a future version changes how the app handles information, this policy will be updated and
-the "Last updated" date above changed.
+The game does not use local storage for advertising, analytics or tracking purposes.
 
-7. Contact
-Questions about this policy can be sent to ChilliCactus Games at
-helpchillicactusgames@gmail.com.
+3. DEVICE ACCESS AND CONNECTIONS
+
+Kafka Kube works entirely offline. The current Android app does not have Android's internet permission and cannot send or receive data over the internet. The app does not request access to your location, contacts, camera, microphone, photos, messages or other personal information. It does not request any Android permissions. All game features and content are available locally on your device.
+
+4. ADVERTISING, ANALYTICS AND THIRD-PARTY SERVICES
+
+The current version of Kafka Kube contains no advertising, analytics or tracking tools. It does not include crash-reporting services or third-party SDKs that collect information about players.
+
+Earlier versions of the game that included advertising or other online services have been replaced by the current offline version. The game does not use advertising identifiers and does not send gameplay information or device information to external services.
+
+OPTIONAL EXTERNAL LINKS
+
+The game's settings screen includes a link to the ChilliCactus Games Instagram page. If you choose to tap this link, Instagram will open in your browser or the Instagram app, outside Kafka Kube. Any information collected through Instagram is handled under Instagram's own privacy policy and settings. Kafka Kube does not send any information to Instagram when you use the link.
+
+5. APP STORES AND DOWNLOADS
+
+Kafka Kube is distributed through Google Play. Google handles downloads, installations and updates under its own terms and privacy policy:https://policies.google.com/privacy
+
+Google may independently collect information about downloads and installs in accordance with its policies and your settings. ChilliCactus Games does not receive personal information from Google about individual players through the game. This activity is separate from Kafka Kube, which does not collect or transmit personal information.
+
+6. RETENTION, DELETION AND SECURITY
+
+Your game progress and settings remain stored on your device until you remove them or clear the app's data.
+
+You can delete this information by:
+
+- Clearing Kafka Kube's app data through your Android device's Settings.
+- Uninstalling Kafka Kube from your device.
+
+Clearing the app's data or uninstalling the game removes its locally stored progress and settings. This may include unlocked levels and selected kube skins. We do not keep a server copy of your game save and cannot restore deleted progress. The game uses Android's private app storage to keep its saved information separate from other apps. The security of this information also depends on the security of your device.
+
+7. YOUR PRIVACY RIGHTS
+
+Because Kafka Kube does not collect or hold personal information about players through the game, we do not maintain a personal information database or individual player profiles.Your locally saved game information can be deleted at any time using the options described in section 6.
+
+Depending on the law that applies, you may have rights to access, correct, delete or restrict the use of personal information held by an organisation. If you have a privacy enquiry or believe we hold information relating to you, you can contact us using the details in section 8.
+
+You may also complain to your local data protection authority. In the UK, this is the Information Commissioner's Office: https://ico.org.uk/make-a-complaint/
+
+8. CONTACTING US
+
+For privacy enquiries or questions about this policy, contact ChilliCactus Games at: helpchillicactusgames@gmail.com
+
+If you contact us, we will receive the information you choose to provide, such as your email address and the contents of your message. We will use this information only to respond to your enquiry or deal with your request. We do not use support correspondence for advertising or sell your personal information.
+
+9. CHILDREN'S PRIVACY
+
+Kafka Kube is suitable for players of all ages. The game does not ask players to provide a name, email address, age, location or any other personal details. It does not collect or transmit gameplay information and contains no advertising, in-game chat or online services.
+
+Because the game does not collect personal information, it does not collect personal information from children. If you believe a child has provided personal information directly to us through an email or other contact, please get in touch so that we can address the matter appropriately.
+
+## 10. CHANGES TO THIS POLICY
+
+We may update this policy if the game's features or information-handling practices change. If a future version introduces accounts, online services, advertising, analytics or any form of personal information collection, this policy will be updated to explain those changes. We will revise the "Last updated" date at the top of this policy whenever changes are made.
+
+This policy describes the current Android version of Kafka Kube.
