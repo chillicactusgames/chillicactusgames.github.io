@@ -1,0 +1,19 @@
+
+body {
+  font-family: questrial;
+  padding: 20px;
+  background: #84B067;
+  color:white;
+}
+
+h5, h4, h3, h2, h1 {
+  font-family: questrial;
+}
+
+p.header {
+  font-family: questrial;  
+}
+
+.footer {
+  background: #202020;
+}
