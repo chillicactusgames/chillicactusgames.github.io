@@ -1,0 +1,181 @@
+POCKET COLLIDER PRIVACY POLICY
+ChilliCactus Games
+Last updated: 17 November 2026
+
+1. ABOUT THIS POLICY
+
+Pocket Collider is a particle-collider idle game published by ChilliCactus
+Games ("we", "us" or "our"). This policy explains how information is
+handled in the Android version of the game.
+
+You do not need an account to play, and the game does not send your
+gameplay records to us. The game shows advertising, which is provided by
+Google AdMob, and offers optional in-app purchases through Google Play.
+It contains no analytics or third-party crash-reporting SDKs.
+
+2. INFORMATION STORED ON YOUR DEVICE
+
+The game saves information locally so that you can continue playing and
+keep your preferences. This includes:
+
+- Collected resources, upgrade levels and your collider's energy.
+- Discovered particles, when they were found and which particle entries
+  you have viewed.
+- Collider charge, cooldown and the time of the next automatic experiment.
+- The scientists in your lab, collision counts and other progress totals.
+- The last time the game was open and the latest time it has recorded,
+  used to run automatic experiments while you are away.
+- A random-number value that decides collision results, so that reopening
+  the game does not change them.
+- A count of collisions since the last full-screen advert, which of our
+  own games is promoted next, and how many reward videos you have watched
+  today.
+- Whether you have made a purchase that removes adverts.
+- Your reduced-motion preference.
+
+This information is stored locally within the Android app. It is used to
+run the game, restore progress, calculate automatic experiments, pace
+adverts and remember settings. It is not sent to a ChilliCactus Games
+server.
+
+Automatic experiments are calculated on your device from its clock, for
+up to 48 hours while the game is closed. The game does not contact a
+server to run experiments or record results. There are no online accounts,
+public leaderboards or developer-operated cloud saves.
+
+3. DEVICE ACCESS AND CONNECTIONS
+
+The Android app uses an internet connection to request and show adverts
+and to handle purchases through Google Play. It does not request access
+to your location, contacts, camera, microphone, photos or messages. Game
+files and artwork are loaded locally, and the game itself can be played
+without a connection.
+
+4. ADVERTISING
+
+The game shows a banner advert on the main screen and, from time to time,
+a full-screen advert after a collision. You can also choose to watch a
+reward video in exchange for in-game resources. Reward videos are optional
+and are not required to play.
+
+Adverts are provided by Google AdMob. To deliver adverts, measure them
+and prevent fraud, Google may collect and process information from your
+device, such as your device's advertising ID, IP address, device and app
+information, and how you interact with adverts. Google's use of this
+information is described at: https://policies.google.com/technologies/partner-sites
+
+Where the law requires it, including in the UK and the European Economic
+Area, the game asks for your consent before personalised adverts are
+shown, using Google's consent tools. If you do not consent, you may still
+see adverts, but they are not personalised to you. You can change your
+choice later from the game's settings. You can also reset or delete your
+advertising ID, or opt out of personalised adverts, in your Android
+device's settings.
+
+When an advert cannot be loaded, the game may instead show a promotion for
+one of our other games. These promotions are built into the app, and no
+information is sent when they are shown. If you tap one, the game opens
+that title's Google Play page in the Google Play Store app or, if that is
+not available, in your web browser. Google's terms and privacy policy
+apply from that point.
+
+We do not receive your advertising ID or other information that
+identifies you from adverts. We may receive aggregated reports from
+Google, such as the number of adverts shown, which do not identify
+individual players.
+
+5. APP STORES AND PURCHASES
+
+Google Play handles downloads, updates and purchases under its own terms
+and privacy policy. In-app purchases are optional. Any purchase also
+removes adverts from the game; optional reward videos remain available.
+
+When you make a purchase, Google Play processes the payment. The game
+receives confirmation of the purchase, such as the item bought and its
+order details, so that it can deliver your items and remove adverts. The
+game does not receive or ask for your payment card or banking details.
+
+Google or your device manufacturer may separately process information
+about their services, including store use or diagnostics, according to
+their policies and your settings. This is separate from the game's local
+progress storage.
+
+6. CONTACTING US
+
+For privacy enquiries, contact ChilliCactus Games at:
+helpchillicactusgames@gmail.com
+
+If you contact us, we receive the information you choose to provide,
+such as your email address, message and any attachments. We use it to
+respond to your enquiry, investigate the issue or handle your request.
+Please avoid sending sensitive information that is not needed.
+
+For support correspondence, our lawful basis under UK data protection
+law is our legitimate interest in responding to players and resolving
+enquiries. We may also process information where necessary to meet a
+legal obligation. You do not have to contact us to play the game.
+
+Correspondence may be processed by the email or support service you use
+to contact us and by the providers we use to receive and manage messages.
+We do not sell your personal information or use support messages for
+advertising. We may disclose information where required by law.
+
+7. RETENTION, DELETION AND SECURITY
+
+Local progress and settings remain on your device until you remove them
+or the app removes its stored data. To delete this information, use your
+Android device's Settings to clear Pocket Collider's app storage.
+Uninstalling the app normally removes its local data as well.
+
+Deleting local data removes saved progress, discovered particles and
+settings. Reset Progress in the game's settings also deletes your saved
+progress. We do not hold a server copy of your game save and cannot
+restore one for you. The Android app is configured to exclude its game
+data from Android cloud backup and device transfer. Purchases are
+recorded by Google Play, so an advert-free purchase can be restored on
+the same Google account.
+
+Information collected by Google for advertising is retained under
+Google's own policies. You can manage it through your Google account and
+device settings.
+
+If you contact us, we keep correspondence only for as long as needed to
+resolve the enquiry and any related follow-up, or to meet applicable
+legal requirements. You can ask us to delete information you have sent us.
+
+Local game data uses the storage protections provided by Android.
+The game does not add separate encryption to saved progress.
+The security of that storage also depends on the security of your device.
+
+8. YOUR PRIVACY RIGHTS
+
+Depending on the law that applies, you may have rights to access, correct,
+delete or restrict the use of personal information we hold about you,
+and to receive a portable copy where that right applies.
+
+You may object to processing based on our legitimate interests.
+Contact us using the details in section 6 to make a request. We cannot
+remotely access or delete a game save stored only on your device; use
+the deletion options in section 7 for that information. For information
+collected for advertising, you can also use the choices in section 4.
+
+You may complain to your local data protection authority. In the UK,
+this is the Information Commissioner's Office: https://ico.org.uk/make-a-complaint/
+
+9. CHILDREN'S PRIVACY
+
+The game does not ask players to provide a name, email address, age or
+other personal details, and it does not transmit gameplay records to us.
+It contains no in-game chat. Pocket Collider is not directed at children
+under 13. If you believe a child has provided personal information
+directly to us, contact us so that we can address the matter and delete
+the information where appropriate.
+
+10. CHANGES TO THIS POLICY
+
+We may update this policy if the game's features or information-handling
+practices change. We will revise the date above and provide any additional
+notice required by applicable law. This policy describes the current
+game; changes involving accounts, online services, other advertising
+providers or new data collection would need to be reflected in an updated
+policy.
