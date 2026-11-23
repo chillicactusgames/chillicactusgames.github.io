@@ -1,0 +1,443 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Branch Line Dev Log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	  <link rel="stylesheet" type="text/css" href="game_info_style.css" media="screen" />
+	  <link rel="stylesheet" type="text/css" href="styles/style_branch_line.css" media="screen" />
+	  <link rel="stylesheet" type="text/css" href="styles/style_branch_line_devlog.css" media="screen" />
+	  <link rel="icon" href="branch-line/icon.png" type="image/png">
+    </head>
+  <body>
+
+<!--
+  Each dashed "To write" box holds the points to cover in that section.
+  Replace the box (the whole <div class="write"> ... </div>) with your own paragraphs.
+-->
+
+<div class="header">
+  <h1><img class="logo" src="branch-line/branch-line-sign.png" alt="Branch Line"></h1>
+  <span class="plate">Dev Log</span>
+</div>
+
+<div class="content devlog">
+
+<ul class="stops">
+  <li><a href="#theme"><span>1</span>The idea</a></li>
+  <li><a href="#timeline"><span>2</span>Timeline</a></li>
+  <li><a href="#train"><span>3</span>The train</a></li>
+  <li><a href="#boards"><span>4</span>Making boards</a></li>
+  <li><a href="#checks"><span>5</span>Testing boards</a></li>
+  <li><a href="#animation"><span>6</span>Animation</a></li>
+  <li><a href="#worlds"><span>7</span>Worlds</a></li>
+  <li><a href="#dropped"><span>8</span>Dropped ideas</a></li>
+  <li><a href="#then-now"><span>9</span>Then and now</a></li>
+</ul>
+
+<!-- 1 -->
+<section class="chapter" id="theme">
+  <h2>The idea</h2>
+
+  <div class="write">
+    <ul>
+      <li>Who you are, and the people behind ChilliCactus Games</li>
+      <li>Where the idea started: a train ride, a place, a puzzle book, a memory?</li>
+      <li>Why trains, and why a quiet branch line rather than a busy main line</li>
+      <li>Why rural England: the villages, fields, dry stone walls and sheep</li>
+      <li>What "relaxing" means to you, and what you wanted players to feel</li>
+      <li>Why low-poly and soft colours instead of a realistic look</li>
+    </ul>
+  </div>
+
+  <div class="signs">
+    <img src="branch-line/devlog/sign-applewick.png" alt="Applewick sign">
+    <img src="branch-line/devlog/sign-willowbrook.png" alt="Willowbrook sign">
+    <img src="branch-line/devlog/sign-foxcombe.png" alt="Foxcombe sign">
+    <img src="branch-line/devlog/sign-amberley.png" alt="Amberley sign">
+    <img src="branch-line/devlog/sign-slateside.png" alt="Slateside sign">
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>How you named the five towns, and any real places behind them</li>
+      <li>Why the station-sign style for the logo and world names</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2 -->
+<section class="chapter" id="timeline">
+  <h2>Timeline</h2>
+
+  <div class="write">
+    <ul>
+      <li>When the idea first came up, and how long it sat before you started</li>
+      <li>How you worked: evenings, weekends, alongside other games?</li>
+      <li>The moments that felt like milestones to you</li>
+    </ul>
+  </div>
+
+  <ol class="timeline">
+    <li class="big todo"><time>July 2026</time>
+      <div class="write">
+        <ul>
+          <li>Where you were when the idea came, and what sparked it</li>
+          <li>First sketches or notes: paper, phone, whiteboard?</li>
+          <li>Puzzle games and train games you were playing or looking at</li>
+        </ul>
+      </div>
+    </li>
+    <li class="todo"><time>August</time>
+      <div class="write">
+        <ul>
+          <li>Working out the rules: route, counts, A to B</li>
+          <li>First puzzles solved on paper, and who you tried them on</li>
+          <li>The name "Branch Line": other names you considered</li>
+        </ul>
+      </div>
+    </li>
+    <li class="todo"><time>September</time>
+      <div class="write">
+        <ul>
+          <li>Settling the look: rural England, steam, low-poly</li>
+          <li>Choosing the five towns and what each one should feel like</li>
+          <li>Anything built or tried before the first board on screen</li>
+        </ul>
+      </div>
+    </li>
+    <li class="big"><time>22 Oct</time>Earliest saved screenshot: the first board</li>
+    <li><time>23 Oct</time>Five worlds, world colours and the station sign</li>
+    <li><time>24 Oct</time>Endless mode, the stamp album and the whistle</li>
+    <li><time>26 Oct</time>The opening journey past the ChilliCactus Games sign</li>
+    <li><time>30 Oct</time>One train model used everywhere</li>
+    <li class="big"><time>1 Nov</time>Version 1.0</li>
+    <li class="big"><time>3 Nov</time>Night Line</li>
+    <li><time>7 Nov</time>The level editor</li>
+    <li><time>12–13 Nov</time>Night boards redrawn in the editor</li>
+    <li><time>15 Nov</time>Version 1.1</li>
+  </ol>
+</section>
+
+<!-- 3 -->
+<section class="chapter" id="train">
+  <h2>The train</h2>
+
+  <div class="line">
+    <figure>
+      <img src="branch-line/devlog/train-1-first.jpg" alt="The first locomotive, seen from above beside the station">
+      <figcaption><b>First board</b><br>22 Oct, seen from above</figcaption>
+    </figure>
+    <figure>
+      <img src="branch-line/devlog/train-2-scenic.jpg" alt="The locomotive in the angled 3D view">
+      <figcaption><b>3D view</b><br>22 Oct, tilted camera</figcaption>
+    </figure>
+    <figure>
+      <img src="branch-line/devlog/train-3-line-drawing.jpg" alt="Line drawing of a locomotive on the sign">
+      <figcaption><b>Line drawing</b><br>23 Oct, first sign</figcaption>
+    </figure>
+    <figure>
+      <img src="branch-line/devlog/train-4-model.png" alt="The finished locomotive model">
+      <figcaption><b>Finished model</b><br>eight wheels, coal bunker</figcaption>
+    </figure>
+    <figure>
+      <img src="branch-line/devlog/train-5-applewick.png" alt="The locomotive on an Applewick grass tile">
+      <figcaption><b>On a tile</b><br>the logo and Daily art</figcaption>
+    </figure>
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>Why a small tank engine, and why red and green with brass bands</li>
+      <li>What changed between each stage, and what made you change it</li>
+      <li>Why the line drawing on the sign became the 3D train on a tile</li>
+      <li>The small details: wheels, coal bunker, chimney, cab windows</li>
+      <li>Making the train look the same on every screen (30 Oct)</li>
+    </ul>
+  </div>
+
+  <h3>Old and new model</h3>
+  <div class="gallery wide pair">
+    <figure><img class="framed" src="branch-line/devlog/train-compare-old.jpg" alt="The old, shorter locomotive on the Applewick board"><figcaption><b>Old</b><br>world previews, maps and intro until 28 Oct (version 0.22)</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/train-compare-new.jpg" alt="The new, detailed locomotive on the same Applewick board"><figcaption><b>New</b><br>one detailed model everywhere from 30 Oct (version 0.23), same board today</figcaption></figure>
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>Why there were two different trains in the game at first</li>
+      <li>What the new one adds: longer boiler, headlamp, buffers, eight wheels, coal bunker</li>
+      <li>Why it mattered that the train looks the same on every screen</li>
+      <li>Which version you prefer, and anything you would still change</li>
+    </ul>
+  </div>
+
+  <h3>One train, five towns</h3>
+  <div class="tiles">
+    <img src="branch-line/devlog/train-5-applewick.png" alt="Applewick tile">
+    <img src="branch-line/devlog/train-5-willowbrook.png" alt="Willowbrook tile">
+    <img src="branch-line/devlog/train-5-foxcombe.png" alt="Foxcombe tile">
+    <img src="branch-line/devlog/train-5-amberley.png" alt="Amberley tile">
+    <img src="branch-line/devlog/train-5-slateside.png" alt="Slateside tile">
+  </div>
+
+  <h3>The sign, step by step</h3>
+  <div class="gallery wide">
+    <figure><img class="framed" src="branch-line/devlog/logo-train-logo.jpg" alt="Sign with a line-drawn train and sprigs"><figcaption>Line-drawn train and sprigs</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/logo-train-logo-compact.jpg" alt="Compact version of the line-drawn sign"><figcaption>Compact version</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/logo-tile-logo.jpg" alt="Sign with the 3D train on a tile and sprigs"><figcaption>The 3D train on a tile</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/logo-logo-simple.jpg" alt="Simplified sign without sprigs"><figcaption>Sprigs removed</figcaption></figure>
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>Which sign you liked best at the time, and why you settled on the final one</li>
+      <li>Drawing the lettering, the rivets and the cream lining</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 4 -->
+<section class="chapter" id="boards">
+  <h2>Making the boards</h2>
+
+  <div class="write">
+    <ul>
+      <li>How a puzzle starts: route first, or clues first?</li>
+      <li>How the 150 campaign puzzles came together, from 4x4 to 10x10</li>
+      <li>How difficulty grows across a world and from one world to the next</li>
+      <li>When each new feature first shows up, and why in that order</li>
+    </ul>
+  </div>
+
+  <h3>The pieces of a puzzle</h3>
+  <div class="gallery">
+    <figure><img class="framed" src="branch-line/devlog/help-route.jpg" alt="A route from A to B"><figcaption><b>Route</b><br>one line from A to B</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/help-counts.jpg" alt="Row and column counts"><figcaption><b>Counts</b><br>track per row and column</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/help-obstacles.jpg" alt="Trees and rocks"><figcaption><b>Obstacles</b><br>trees and rocks</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/help-fields.jpg" alt="An outlined field with a total"><figcaption><b>Fields</b><br>a total for the field</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/help-walls.jpg" alt="A dry stone wall between squares"><figcaption><b>Dry stone walls</b><br>no crossing</figcaption></figure>
+  </div>
+
+  <h3>The level editor</h3>
+  <div class="gallery wide">
+    <figure><img class="framed" src="branch-line/devlog/editor-01-open.jpg" alt="Level editor showing a board before and after"><figcaption>Opening a board: old version on the left, new on the right</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/editor-02-proposal.jpg" alt="Level editor with a proposed route"><figcaption>A proposed route, with the checks</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/editor-03-edited.jpg" alt="Level editor after editing a board"><figcaption>After editing by hand</figcaption></figure>
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>Why you built your own editor, and how it changed the way you worked</li>
+      <li>How many boards you went back and redrew, and what you were looking for</li>
+      <li>Your rules of thumb for a good board, and boards you redrew several times</li>
+      <li>A favourite board, and a board that took the longest</li>
+    </ul>
+  </div>
+
+  <h3>Small and large boards</h3>
+  <div class="gallery phones">
+    <figure><img src="branch-line/devlog/board-7x7.jpg" alt="A 7x7 Foxcombe board"><figcaption>Foxcombe, 7x7</figcaption></figure>
+    <figure><img src="branch-line/devlog/board-10x10.jpg" alt="A 10x10 Slateside board"><figcaption>Slateside, 10x10</figcaption></figure>
+  </div>
+</section>
+
+<!-- 5 -->
+<section class="chapter" id="checks">
+  <h2>Testing the boards</h2>
+
+  <div class="write">
+    <ul>
+      <li>Why every puzzle must have exactly one answer</li>
+      <li>Why every puzzle must be solvable by reasoning, with no guessing</li>
+      <li>How you check that: solving each board step by step from the clues</li>
+      <li>Fixed pieces of track: why some boards needed them</li>
+      <li>Keeping boards different from each other, so no two routes feel the same</li>
+      <li>Playtesting: who played it, what they got stuck on, what you changed</li>
+      <li>Boards that failed testing, and how you fixed them</li>
+    </ul>
+  </div>
+
+  <div class="gallery wide">
+    <figure><img class="framed" src="branch-line/devlog/editor-02-proposal.jpg" alt="Board checks in the level editor"><figcaption>Checks run on each board in the editor</figcaption></figure>
+  </div>
+</section>
+
+<!-- 6 -->
+<section class="chapter" id="animation">
+  <h2>Animation</h2>
+
+  <div class="write">
+    <ul>
+      <li>Why the train runs the whole route when you finish a puzzle</li>
+      <li>Steam, the chuff and the two-toot whistle: matching sound to the wheels</li>
+      <li>The clouds between screens, and why you chose clouds</li>
+      <li>Timing: how long each animation should last before it gets in the way</li>
+      <li>The reduced-motion setting, and who it is for</li>
+    </ul>
+  </div>
+
+  <h3>The opening journey</h3>
+  <div class="gallery phones">
+    <figure><img src="branch-line/devlog/intro-02-following-train.jpg" alt="Camera following the train"><figcaption><b>1</b> Following the train</figcaption></figure>
+    <figure><img src="branch-line/devlog/intro-03-publisher-sign.jpg" alt="The ChilliCactus Games sign"><figcaption><b>2</b> Past the studio sign</figcaption></figure>
+    <figure><img src="branch-line/devlog/intro-04-train-departed.jpg" alt="The train leaving the screen"><figcaption><b>3</b> Departed</figcaption></figure>
+    <figure><img src="branch-line/devlog/clouds-entering.jpg" alt="Clouds clearing over the world screen"><figcaption><b>4</b> Clouds clear</figcaption></figure>
+    <figure><img src="branch-line/devlog/intro-05-world-blend.jpg" alt="Sliding between worlds"><figcaption><b>5</b> Sliding between worlds</figcaption></figure>
+  </div>
+
+  <h3>In motion</h3>
+  <div class="gallery phones">
+    <figure>
+      <video src="branch-line/devlog/teaser-0.17.mp4" poster="branch-line/devlog/poster-teaser.jpg" controls muted loop playsinline preload="none"></video>
+      <figcaption>Teaser, version 0.17</figcaption>
+    </figure>
+    <figure>
+      <video src="branch-line/devlog/night-teaser.mp4" poster="branch-line/devlog/poster-night.jpg" controls muted loop playsinline preload="none"></video>
+      <figcaption>Night Line teaser</figcaption>
+    </figure>
+    <figure><img src="branch-line/devlog/completion-0.6.jpg" alt="Early Line complete card"><figcaption>Early "Line complete" card</figcaption></figure>
+    <figure><img src="branch-line/devlog/stamp-earned.jpg" alt="A stamp being awarded"><figcaption>A stamp for the album</figcaption></figure>
+  </div>
+  <p class="credit">Music in the teasers: "Porch Swing Days - slower" and "Evening Fall (Harp)" by Kevin MacLeod (incompetech.com), licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a>.</p>
+</section>
+
+<!-- 7 -->
+<section class="chapter" id="worlds">
+  <h2>Worlds and seasons</h2>
+
+  <div class="write">
+    <ul>
+      <li>The look of each town: orchards, willows, harvest, autumn, slate</li>
+      <li>Choosing a colour palette per world, and keeping them working together</li>
+      <li>The scenery you added along each line: bridges, barns, windmills, cows, ducks</li>
+    </ul>
+  </div>
+
+  <div class="gallery phones">
+    <figure><img src="branch-line/devlog/theme-world-0.jpg" alt="Applewick world screen"><figcaption>Applewick</figcaption></figure>
+    <figure><img src="branch-line/devlog/theme-world-1.jpg" alt="Willowbrook world screen"><figcaption>Willowbrook</figcaption></figure>
+    <figure><img src="branch-line/devlog/theme-world-2.jpg" alt="Foxcombe world screen"><figcaption>Foxcombe</figcaption></figure>
+    <figure><img src="branch-line/devlog/theme-world-3.jpg" alt="Amberley world screen"><figcaption>Amberley</figcaption></figure>
+    <figure><img src="branch-line/devlog/theme-world-4.jpg" alt="Slateside world screen"><figcaption>Slateside</figcaption></figure>
+  </div>
+
+  <h3>Day and Night</h3>
+  <div class="compare">
+    <img src="branch-line/devlog/board-applewick-day.png" alt="Applewick board by day">
+    <img class="over" src="branch-line/devlog/board-applewick-night.png" alt="Applewick board by night">
+    <span class="handle"></span>
+    <input type="range" min="0" max="100" value="50" aria-label="Slide between day and night">
+  </div>
+  <div class="compare-labels"><span>Day</span><span>Night</span></div>
+
+  <div class="write">
+    <ul>
+      <li>Where the idea for Night Line came from</li>
+      <li>Relighting every world: lamps, windows, moonlight</li>
+      <li>Why Night has its own set of boards</li>
+    </ul>
+  </div>
+
+  <div class="gallery wide">
+    <figure><img src="branch-line/devlog/board-foxcombe-day.png" alt="Foxcombe board"><figcaption>Foxcombe by day</figcaption></figure>
+    <figure><img src="branch-line/devlog/board-slateside-night.png" alt="Slateside board at night"><figcaption>Slateside at night</figcaption></figure>
+  </div>
+  <div class="gallery phones">
+    <figure><img src="branch-line/devlog/night-foxcombe-05.jpg" alt="A Night puzzle in Foxcombe"><figcaption>A Night puzzle in Foxcombe</figcaption></figure>
+  </div>
+
+  <h3>Christmas</h3>
+  <div class="gallery wide">
+    <figure><img src="branch-line/devlog/christmas-day.png" alt="Christmas village board by day"><figcaption>Christmas village by day</figcaption></figure>
+    <figure><img src="branch-line/devlog/christmas-night.png" alt="Christmas village board at night"><figcaption>and at night</figcaption></figure>
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>Snow, a frozen pond, tunnels, trees and a reindeer: what you wanted in a winter board</li>
+      <li>Plans for future seasons or worlds</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 8 -->
+<section class="chapter" id="dropped">
+  <h2>Dropped ideas</h2>
+
+  <div class="gallery">
+    <figure><img class="framed" src="branch-line/devlog/first-board.jpg" alt="Flat board seen from above on brown earth"><figcaption><b>The flat board</b><br>seen from directly above</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/intro-01-awaiting-departure.jpg" alt="Opening screen asking the player to tap to depart"><figcaption><b>"Tap to depart"</b><br>removed 26 Oct</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/dropped-hint-button.jpg" alt="Puzzle screen with a Hint button"><figcaption><b>The Hint button</b><br>removed 26 Oct</figcaption></figure>
+    <figure><img class="framed" src="branch-line/devlog/logo-train-logo.jpg" alt="Line-drawn sign"><figcaption><b>The line-drawn sign</b></figcaption></figure>
+  </div>
+
+  <h3>Four ways to draw walls and fields</h3>
+  <div class="gallery wide">
+    <figure><img class="framed" src="branch-line/devlog/dropped-wall-outlines.jpg" alt="Four versions of one board with different wall and field outlines"><figcaption>Amberley 17, four versions side by side</figcaption></figure>
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>Why each idea was dropped, and whether you miss any of them</li>
+      <li>Why players no longer get hints, and what replaced them</li>
+      <li>Which wall and field version won, and why</li>
+      <li>Ideas that never got as far as a picture</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 9 -->
+<section class="chapter" id="then-now">
+  <h2>Then and now</h2>
+
+  <div class="gallery phones">
+    <figure><img src="branch-line/devlog/first-ui.jpg" alt="First puzzle screen"><figcaption><b>22 Oct</b><br>first puzzle screen</figcaption></figure>
+    <figure><img src="branch-line/branch-line-8.png" alt="Puzzle screen today"><figcaption><b>Today</b><br>puzzle screen</figcaption></figure>
+  </div>
+
+  <div class="gallery phones">
+    <figure><img src="branch-line/devlog/world-screen-nav-world-first.jpg" alt="First world screen"><figcaption><b>1</b> First world screen</figcaption></figure>
+    <figure><img src="branch-line/devlog/world-screen-04-world-0.jpg" alt="World screen with a plain background"><figcaption><b>2</b> Plain background</figcaption></figure>
+    <figure><img src="branch-line/devlog/world-screen-05-world-final-0.jpg" alt="World screen with the first sign"><figcaption><b>3</b> The first sign</figcaption></figure>
+    <figure><img src="branch-line/devlog/world-screen-world-1.jpg" alt="World screen with a fence"><figcaption><b>4</b> Fences and sheep</figcaption></figure>
+    <figure><img src="branch-line/branch-line-1.png" alt="World screen today"><figcaption><b>5</b> Today</figcaption></figure>
+  </div>
+
+  <div class="write">
+    <ul>
+      <li>What surprised you most looking back at the first version</li>
+      <li>The change you are proudest of</li>
+      <li>What you learned making Branch Line, and what comes next</li>
+      <li>Thanks: family, friends and playtesters</li>
+    </ul>
+  </div>
+</section>
+
+<p class="back">
+  <a href="https://play.google.com/store/apps/details?id=com.chillicactusgames.branchline">
+    <img src="/get_play_store.png" alt="Get it on Google Play" style="max-width: 220px">
+  </a>
+</p>
+
+</div>
+
+<div class="footer">
+	<a href="branch-line.html"><h2>Branch Line</h2></a>
+	<a href="/"><h3>More Games</h3></a>
+</div>
+
+<script>
+  // Day / Night slider
+  document.querySelectorAll('.compare').forEach(function (box) {
+    var over = box.querySelector('.over');
+    var handle = box.querySelector('.handle');
+    var range = box.querySelector('input');
+    function update() {
+      over.style.clipPath = 'inset(0 0 0 ' + range.value + '%)';
+      handle.style.left = range.value + '%';
+    }
+    range.addEventListener('input', update);
+    update();
+  });
+</script>
+</body>
+</html>

@@ -1,19 +1,122 @@
+/* Branch Line: colours, signs and lettering taken from the game. */
+
+/* The shared stylesheet looks for the fonts beside it; these point at the site root. */
+@font-face {
+  font-family: 'questrial';
+  src: url('../../font_questrial.ttf') format('truetype');
+}
 
 body {
-  font-family: questrial;
+  font-family: questrial, "Segoe UI", Arial, sans-serif;
   padding: 20px;
-  background: #84B067;
-  color:white;
+  background: #dce5d7 radial-gradient(ellipse at 50% 0%, #edf0e4, #dce5d7 60%) no-repeat;
+  color: #263f30;
 }
 
 h5, h4, h3, h2, h1 {
-  font-family: questrial;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #244c3c;
+}
+
+/* Header: the station sign logo, with the tagline underneath */
+.header {
+  padding: 10px 10px 25px;
+}
+
+.header .logo {
+  width: 90%;
+  max-width: 460px;
 }
 
 p.header {
-  font-family: questrial;  
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  color: #6a7c65;
+  padding: 0;
+  margin: 10px 0 0;
 }
 
+/* Screenshot strip sits on a cream ticket, as in the game's Daily screen */
+.screenshots {
+  background: #fff9e8;
+  border: 1px solid #c9bd95;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 4px #fff9e8, inset 0 0 0 5px #ddd1ac;
+  clip-path: polygon(12px 0, calc(100% - 12px) 0, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px), 0 12px);
+}
+
+.screenshots .images img {
+  margin-right: 8px;
+}
+
+.content p, .content li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.content ul li::marker {
+  color: #bd964a;
+}
+
+/* The five towns as small enamel station signs, each in its world colour */
+ul.towns {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+ul.towns li {
+  position: relative;
+  display: inline-block;
+  margin: 0 8px 10px 0;
+  padding: 7px 22px 8px;
+  background: var(--sign-face);
+  color: var(--sign-ink);
+  border: 2px solid var(--sign-edge);
+  box-shadow: inset 0 0 0 3px var(--sign-face), inset 0 0 0 4px var(--sign-lining);
+  clip-path: polygon(7px 0, calc(100% - 7px) 0, 100% 7px, 100% calc(100% - 7px), calc(100% - 7px) 100%, 7px 100%, 0 calc(100% - 7px), 0 7px);
+  font: 700 15px/1.2 Georgia, "Times New Roman", serif;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+/* brass rivets either side of the name */
+ul.towns li::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 10px 50%, var(--sign-lining) 1.4px, transparent 1.9px),
+    radial-gradient(circle at calc(100% - 10px) 50%, var(--sign-lining) 1.4px, transparent 1.9px);
+}
+
+.town-applewick   { --sign-face: #536a3f; --sign-edge: #35472d; --sign-lining: #dfd8a7; --sign-ink: #fff7df; }
+.town-willowbrook { --sign-face: #284f3b; --sign-edge: #193c2d; --sign-lining: #b9cea5; --sign-ink: #f5f3df; }
+.town-foxcombe    { --sign-face: #80602b; --sign-edge: #63481e; --sign-lining: #e8d49e; --sign-ink: #fff6e3; }
+.town-amberley    { --sign-face: #874a2f; --sign-edge: #573526; --sign-lining: #e4bc78; --sign-ink: #fff1d3; }
+.town-slateside   { --sign-face: #526960; --sign-edge: #344a43; --sign-lining: #c5cdbb; --sign-ink: #f2f1e3; }
+
+/* Links in the page body */
+a, a:link, a:visited, a:hover, a:active {
+  color: #244c3c;
+}
+
+/* Footer: the logo's green enamel, cream lining and lettering */
 .footer {
-  background: #2C3B23;
+  background: #254f40;
+  border: 2px solid #193c30;
+  box-shadow: inset 0 0 0 4px #254f40, inset 0 0 0 5px #dccb99;
+  clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0 calc(100% - 10px), 0 10px);
+}
+
+.footer h2, .footer h3,
+.footer a, .footer a:link, .footer a:visited, .footer a:hover, .footer a:active {
+  color: #fff3d6;
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    width: 100%;
+  }
 }

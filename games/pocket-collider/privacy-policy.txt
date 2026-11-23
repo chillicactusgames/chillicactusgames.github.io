@@ -1,6 +1,6 @@
 POCKET COLLIDER PRIVACY POLICY
 ChilliCactus Games
-Last updated: 17 November 2026
+Last updated: 19 November 2026
 
 1. ABOUT THIS POLICY
 
@@ -30,8 +30,9 @@ keep your preferences. This includes:
 - A count of collisions since the last full-screen advert, which of our
   own games is promoted next, and how many reward videos you have watched
   today.
-- Whether you have made a purchase that removes adverts.
-- Your reduced-motion preference.
+- Whether you have made a purchase that removes adverts, and a record of
+  the purchases already delivered, so that none is delivered twice.
+- Your reduced-motion, sound and music preferences.
 
 This information is stored locally within the Android app. It is used to
 run the game, restore progress, calculate automatic experiments, pace
@@ -53,10 +54,11 @@ without a connection.
 
 4. ADVERTISING
 
-The game shows a banner advert on the main screen and, from time to time,
-a full-screen advert after a collision. You can also choose to watch a
-reward video in exchange for in-game resources. Reward videos are optional
-and are not required to play.
+The game shows a banner advert on the main screen, a full-screen advert
+when the game starts and, from time to time, a full-screen advert after a
+collision. You can also choose to watch a reward video in exchange for
+in-game resources. Reward videos are optional and are not required to
+play.
 
 Adverts are provided by Google AdMob. To deliver adverts, measure them
 and prevent fraud, Google may collect and process information from your
@@ -131,9 +133,11 @@ Deleting local data removes saved progress, discovered particles and
 settings. Reset Progress in the game's settings also deletes your saved
 progress. We do not hold a server copy of your game save and cannot
 restore one for you. The Android app is configured to exclude its game
-data from Android cloud backup and device transfer. Purchases are
-recorded by Google Play, so an advert-free purchase can be restored on
-the same Google account.
+data from Android cloud backup and device transfer. Whether adverts
+have been removed is stored only on your device. Reset Progress keeps
+it, but clearing the app's storage or uninstalling the app removes it,
+and it cannot be restored, including on the same Google account or
+another device. Google Play keeps its own record of your payments.
 
 Information collected by Google for advertising is retained under
 Google's own policies. You can manage it through your Google account and

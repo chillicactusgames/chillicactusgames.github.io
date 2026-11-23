@@ -1,0 +1,425 @@
+/* Branch Line dev log. Loaded after style_branch_line.css and reuses its colours. */
+
+.devlog {
+  max-width: 1000px;
+}
+
+/* "Dev Log" plate under the main sign */
+.plate {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 6px 20px 7px;
+  background: #fff9e8;
+  color: #80602b;
+  border: 1px solid #c9bd95;
+  box-shadow: inset 0 0 0 3px #fff9e8, inset 0 0 0 4px #ddd1ac;
+  clip-path: polygon(7px 0, calc(100% - 7px) 0, 100% 7px, 100% calc(100% - 7px), calc(100% - 7px) 100%, 7px 100%, 0 calc(100% - 7px), 0 7px);
+  font: 700 16px/1.2 Georgia, "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* Contents: one stop per chapter */
+.stops {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  justify-content: center;
+}
+
+.stops a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.stops a span {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #fffbe9;
+  border: 2px solid #698763;
+  box-shadow: 0 2px 0 #8fa18277;
+  font: 400 14px Georgia, serif;
+}
+
+/* Chapters */
+.chapter {
+  margin: 0 0 50px;
+  scroll-margin-top: 20px;
+}
+
+.chapter > h2 {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 18px;
+  padding: 10px 30px 11px;
+  background: #254f40;
+  color: #fff3d6;
+  border: 2px solid #193c30;
+  box-shadow: inset 0 0 0 3px #254f40, inset 0 0 0 4px #dccb99;
+  clip-path: polygon(9px 0, calc(100% - 9px) 0, 100% 9px, 100% calc(100% - 9px), calc(100% - 9px) 100%, 9px 100%, 0 calc(100% - 9px), 0 9px);
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.chapter > h2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 13px 50%, #e5d6ac 1.6px, transparent 2px),
+    radial-gradient(circle at calc(100% - 13px) 50%, #e5d6ac 1.6px, transparent 2px);
+}
+
+.chapter h3 {
+  font-size: 20px;
+  margin: 28px 0 10px;
+}
+
+/* "To write" notes: replace each with your own paragraph */
+.write {
+  margin: 12px 0 18px;
+  padding: 14px 20px 6px;
+  background: #fffdf3;
+  border: 2px dashed #bd964a;
+  border-radius: 6px;
+}
+
+.write::before {
+  content: "\270E  To write";
+  display: block;
+  font: 700 12px/1 Georgia, serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #a08044;
+  margin-bottom: 6px;
+}
+
+.write ul {
+  margin: 0 0 8px;
+  padding-left: 22px;
+}
+
+.content .write li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 4px 0;
+}
+
+/* Pictures */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 16px;
+  margin: 14px 0;
+}
+
+.gallery.wide {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.gallery.pair {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery.phones {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img, figure video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.phones figure {
+  width: 100%;
+  max-width: 260px;
+  justify-self: center;
+}
+
+.phones figure img, .phones figure video {
+  border-radius: 14px;
+  border: 1px solid #cfdbc4;
+  box-shadow: 0 6px 18px #32533b22;
+}
+
+.framed {
+  background: #fff9e8;
+  border: 1px solid #c9bd95;
+  padding: 8px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #6a7c65;
+  line-height: 1.4;
+}
+
+figcaption b {
+  color: #263f30;
+  font-family: Georgia, serif;
+}
+
+/* Train evolution: numbered stops joined by a railway */
+.line {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+  margin: 18px 0 8px;
+  padding-top: 38px;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 13px;
+  height: 8px;
+  background:
+    linear-gradient(#7b5a3a, #7b5a3a) top / 100% 2px no-repeat,
+    linear-gradient(#7b5a3a, #7b5a3a) bottom / 100% 2px no-repeat,
+    repeating-linear-gradient(90deg, #a07a52 0 4px, transparent 4px 12px);
+}
+
+.line figure {
+  position: relative;
+}
+
+.line figure::before {
+  counter-increment: stop;
+  content: counter(stop);
+  position: absolute;
+  left: 50%;
+  top: -38px;
+  transform: translateX(-50%);
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #244c3c;
+  color: #fff3d6;
+  border: 2px solid #193c30;
+  font: 400 16px Georgia, serif;
+  z-index: 1;
+}
+
+.line {
+  counter-reset: stop;
+}
+
+.line figure img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  background: #fff9e8;
+  border: 1px solid #c9bd95;
+}
+
+/* Five world tiles side by side */
+.tiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tiles img {
+  width: 18%;
+  min-width: 70px;
+}
+
+/* Signs */
+.signs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 16px;
+  margin: 10px 0 18px;
+}
+
+.signs img {
+  width: 30%;
+  min-width: 180px;
+}
+
+/* Timeline: a railway running down the page */
+.timeline {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  padding: 0 0 0 46px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 6px;
+  bottom: 6px;
+  width: 10px;
+  background:
+    linear-gradient(#7b5a3a, #7b5a3a) left / 2px 100% no-repeat,
+    linear-gradient(#7b5a3a, #7b5a3a) right / 2px 100% no-repeat,
+    repeating-linear-gradient(#a07a52 0 4px, transparent 4px 12px);
+}
+
+.timeline li {
+  position: relative;
+  margin: 0 0 16px;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -38px;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fffbe9;
+  border: 2px solid #698763;
+}
+
+.timeline li.big::before {
+  background: #244c3c;
+  border-color: #193c30;
+}
+
+/* Months still to fill in */
+.timeline li.todo::before {
+  background: #fffdf3;
+  border: 2px dashed #bd964a;
+}
+
+.timeline li .write {
+  margin: 6px 0 0;
+}
+
+.timeline time {
+  display: block;
+  font: 700 12px/1.4 Georgia, serif;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #a08044;
+}
+
+/* Day / Night comparison slider */
+.compare {
+  position: relative;
+  max-width: 900px;
+  margin: 14px auto 6px;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.compare img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.compare .over {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: inset(0 0 0 50%);
+}
+
+.compare input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: ew-resize;
+}
+
+.compare .handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 3px;
+  margin-left: -1px;
+  background: #fff3d6;
+  box-shadow: 0 0 0 1px #193c30;
+  pointer-events: none;
+}
+
+.compare .handle::after {
+  content: "\2194";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #254f40;
+  color: #fff3d6;
+  border: 2px solid #dccb99;
+  font-size: 18px;
+}
+
+.compare-labels {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  font: 700 12px Georgia, serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #6a7c65;
+}
+
+.credit {
+  font-size: 13px;
+  color: #6a7c65;
+}
+
+.back {
+  text-align: center;
+  margin: 10px 0 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .line {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 0;
+    row-gap: 46px;
+  }
+  .line::before {
+    display: none;
+  }
+  .line figure {
+    margin-top: 38px;
+  }
+  .chapter > h2 {
+    font-size: 18px;
+    white-space: normal;
+  }
+}
